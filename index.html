@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Latest compiled and minified lodash -->
+  <script src="https://rawgit.com/lodash/lodash/3.0.1/lodash.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Number Game</title>
+</head>
+<body style="background-color: #ffe066;">
+  <div class="container col-lg-offset-4 col-lg-6">
+    <div class="">
+      <h3>Welcome to Number Game</h3>
+    </div>
+    <div class="">
+      <h4>You have ₹ <span id="main">balance</span></h4>
+    </div>
+    <div class="">
+      <button type="button" class="btn btn-success" name="button" onclick="check()">Click</button>
+    </div>
+    <div class="">
+      <h4 id="numbers"></h4>
+      <h4 id="msg"></h4>
+    </div>
+  </div>
+  <script src="./logic.js"></script>
+</body>
+</html>
